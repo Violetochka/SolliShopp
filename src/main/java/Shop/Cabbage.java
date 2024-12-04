@@ -6,7 +6,7 @@ public class Cabbage extends Goods implements Food{
 
     @Override
     public int getPrice(){
-        return getPrice();
+        return price;
     }
 
     @Override

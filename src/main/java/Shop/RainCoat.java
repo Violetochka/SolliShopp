@@ -4,6 +4,7 @@ public class RainCoat extends Goods implements Clothes, OuterWear{
 
     private final String name = "плащ";
     private final int price = 6000;
+    private final int number = 2;
 
     @Override
     public void tryOn(){
@@ -17,17 +18,17 @@ public class RainCoat extends Goods implements Clothes, OuterWear{
 
     @Override
     public int getPrice(){
-        return getPrice();
+        return price;
     }
 
     @Override
     public int getNumber(){
-        return getNumber();
+        return number;
     }
 
     @Override
     public String getName(){
-        return getName();
+        return name;
     }
 
     @Override

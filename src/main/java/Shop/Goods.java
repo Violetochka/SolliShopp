@@ -28,7 +28,7 @@ public  abstract class Goods {
     }
 
     public Goods setNumber(int number){
-        this.number += number;
+        this.number = number;
         return  this;
     }
 

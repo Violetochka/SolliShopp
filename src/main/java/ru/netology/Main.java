@@ -44,7 +44,7 @@ public class Main {
         for(Goods goodsList : goods) {
             if(goodsList.getNumber() !=0) {
                 costGoods += goodsList.getNumber()*goodsList.getPrice();
-                System.out.println(goods + " 'количество'= " + goodsList.getNumber() + " шт."
+                System.out.println(goodsList + " 'количество'= " + goodsList.getNumber() + " шт."
                 + " 'цена'= " + goodsList.getPrice() + " " +
                         " 'стоимость'= " + goodsList.getNumber()*goodsList.getPrice() + "рублей");
             }
